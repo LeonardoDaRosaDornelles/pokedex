@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300&display=swap');
 
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -35,9 +37,9 @@ main{
 
 .pokemon_data{
     position: absolute;
-    top: 55%;
+    top: 53%;
     right: 26%;
-    font-size: clamp(8px,5vw,25px);
+    font-size: clamp(8px,5vh,25px);
     height:18% ;
     color:#aaa ;
 }
@@ -53,7 +55,6 @@ form{
     right: 21.5%;
     background-color: red;
     width: 65%;
-    
 }
 
 .input_search{
@@ -78,8 +79,9 @@ form{
 
 button{
     width: 50%;
+    height: 8vh;
     padding: 4%;
-    font-size: clamb(8px,5vw,1rem);
+    font-size: clamb(8px,5vh,1rem);
     border:2px solid black;
     border-radius: 5px;
     font-weight: 600;
